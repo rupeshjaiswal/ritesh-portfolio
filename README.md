@@ -1,16 +1,135 @@
-# React + Vite
+# 🚀 Ritesh Jaiswal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Digital Marketing Portfolio built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://ritesh-portfolio-eosin.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the ESLint configuration
+I'm **Ritesh Jaiswal**, a Social Media Manager & Canva Designer helping brands grow through:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Social Media Management
+- Canva Design
+- Content Creation
+- Branding
+- WordPress Websites
+- Digital Marketing
+
+---
+
+## ✨ Features
+
+- Modern Hero Section
+- Responsive Navigation Bar
+- Services Showcase
+- Portfolio Gallery with Category Filters
+- Fiverr & Upwork Profile Section
+- Client Reviews Slider
+- Contact Section
+- Mobile Friendly Design
+- Smooth Scrolling Navigation
+- Dark Modern UI
+
+---
+
+## 🛠️ Built With
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Icons
+- GitHub
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Services.jsx
+│   ├── Stats.jsx
+│   ├── MyPortfolio.jsx
+│   ├── Reviews.jsx
+│   ├── FiverrSection.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+## 📸 Portfolio Categories
+
+- Social Media Posts
+- Banners
+- Canva Designs
+- WordPress Websites
+- Branding
+
+---
+
+## 📞 Contact
+
+📧 Email: yourmail@gmail.com
+
+📱 WhatsApp: +977 XXXXXXXX
+
+📸 Instagram: @yourusername
+
+🌐 Fiverr:
+https://www.fiverr.com/riteshjaiswa858
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rupeshjaiswal/ritesh-portfolio.git
+```
+
+Go to project folder:
+
+```bash
+cd ritesh-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+⭐ If you like this project, don't forget to star the repository.
