@@ -1,19 +1,58 @@
+
 @import "tailwindcss";
 
+/* ================= GLOBAL BASE STYLES ================= */
+
+/* Smooth scrolling between page sections */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
-body {
-  background: #050816;
-  color: white;
-  font-family: Inter, sans-serif;
+/* Consistent sizing across the application */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+/* Main application theme */
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #050816;
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent images from overflowing their containers */
+img {
+  max-width: 100%;
+}
+
+/* Keep anchor navigation smooth and account for the fixed navbar */
+[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* ================= HIDDEN SCROLLBAR UTILITY ================= */
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 
 .scrollbar-hide {
+  -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* ================= ACCESSIBILITY ================= */
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
